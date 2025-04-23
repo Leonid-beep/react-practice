@@ -10,10 +10,23 @@
   border: 1px solid #000;
 }
 
-.button:active {
-  background: var(--gold, #ffc802);
+.submit {
+	background-color: #ffc802;
+	color: black;
+
+	&:hover {
+		background-color: #FFEDAB;
+	}
 }
 
-.button:hover {
-  background: var(--gold, #ffc802);
+.reset {
+	background-color: white;
+	color: black;
+
+	&:hover {
+		background-color: black;
+		* {
+      color: white !important;
+    }
+	}
 }
